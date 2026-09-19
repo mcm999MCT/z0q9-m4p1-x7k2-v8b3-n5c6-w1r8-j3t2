@@ -1,0 +1,22 @@
+# Secrets — never commit real environment variables
+.env
+
+# Local database files (may contain collected data, not secrets, but
+# shouldn't be committed to Git either)
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# OS / editor noise
+.DS_Store
+.vscode/
+.idea/

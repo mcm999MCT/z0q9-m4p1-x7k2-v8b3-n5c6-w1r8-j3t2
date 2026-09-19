@@ -1,0 +1,6 @@
+# Stage 1 dependencies
+python-dotenv==1.0.1   # loads .env files for local configuration
+pytest==8.3.3           # test runner
+
+# Stage 2 dependencies
+pytest-asyncio==0.24.0  # lets pytest run tests for async methods (check_health)
